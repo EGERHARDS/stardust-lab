@@ -1,0 +1,100 @@
+:root {
+    /* COLORS */
+    --magenta: #401a29;
+    --carmine: #7b0417;
+    --lilla: #a64e78;
+    --slate: #4b4d64;
+    --darkslate: #000421;
+    --redvelvet: #a60612;
+    --pink: #d84863;
+    --cotton: #9095cd;
+    --aqua: #318c7b;
+    --beige: #c5997c;
+    --spaceblue: #242B67;
+    --fuscia: #804279;
+    --purple: #a665f0;
+    /* FONTS */
+    --anton: 'anton', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --futura: 'futura-pt', 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    --elza:  'elza', Franklin Gothic Demi, sans-serif; 
+}
+
+body {
+    font-family: var(--futura);
+    color: var(--slate);
+    overflow-x: clip;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 7.5px;
+}
+
+h1 {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.logobig {
+    width: 100px;
+}
+
+.mediuminfinitybutton {
+    margin-top: 1.1rem;
+    margin-bottom: 2.2rem;
+    width: 200px;
+    height: 45px;
+    background: var(--fuscia);
+    box-shadow: 0px 4px 12px rgba(128, 66, 121, 0.5);
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    font-family: inter;
+    font-weight: 600;
+}
+
+.infinitybuttoncorner {
+    margin-left: auto;
+    width: 215px;
+    height: 55px;
+    background: var(--lilla);
+    box-shadow: 0px 4px 12px rgba(128, 66, 121, 0.5);
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    font-family: inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.infinitybuttoncorner :hover {
+    cursor:pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+div[id^='screen'] {
+    border-radius: 5px;
+}
+
+.subtitle {
+    color: var(--lilla);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1em;
+}
+
+.subtitle em {
+    font-style: normal;
+    font-weight: 600;
+}
